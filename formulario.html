@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de la persona Usuaria</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>Registro de la persona Usuaria</h1>
+
+        <form>
+
+            <!-- Nombre -->
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <!-- Apellido -->
+            <div class="campo">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+
+            <!-- Correo -->
+            <div class="campo">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo">
+            </div>
+
+            <!-- Contraseña -->
+            <div class="campo">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <!-- Descripción -->
+            <div class="campo">
+                <label for="descripcion">Breve descripción de ti:</label>
+                <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+            </div>
+
+            <!-- Intereses -->
+<div class="campo">
+    <label>Intereses:</label>
+
+    <div class="opciones">
+        <label><input type="checkbox" name="interes" value="tecnologia"> Tecnología</label>
+        <label><input type="checkbox" name="interes" value="arte"> Arte</label>
+        <label><input type="checkbox" name="interes" value="deporte"> Deporte</label>
+        <label><input type="checkbox" name="interes" value="entretenimiento"> Entretenimiento</label>
+        <label><input type="checkbox" name="interes" value="moda"> Moda</label>
+        <label><input type="checkbox" name="interes" value="salud"> Salud</label>
+    </div>
+</div>
+            <!-- Botón -->
+            <button id="boton-enviar" type="submit">Registrarse</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
